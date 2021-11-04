@@ -23,31 +23,6 @@
       "name": "Natalia Giraldo",
       "description": "Mi hijo quedó feliz con sus grados, la mejor comida de todas.",
       "img": "assets/img/portfolio/mujer4.jfif"
-    },
-    {
-      "name": "juan david",
-      "description": "Me encanta este lugar",
-      "price": 1,
-      "img": "https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png",
-      "id": 5
-    },
-    {
-      "name": "valentina",
-      "description": "Me encanta este lugar",
-      "img": "https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png",
-      "id": 6
-    },
-    {
-      "name": "David",
-      "description": "Me encanta este lugar",
-      "img": "https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png",
-      "id": 7
-    },
-    {
-      "name": "kevin",
-      "description": "Me encanta este lugar",
-      "img": "https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png",
-      "id": 8
     }
   ],
   "team": [
@@ -119,14 +94,14 @@
       "id": 1,
       "name": "Pasta boloñesa",
       "description": "Pasta con carne en cocción lenta, estofada en salsa napolitana, cocida con pomodoro y finas hierbas.",
-      "price": "12000",
+      "price": "19000",
       "img": "assets/img/portfolio/pastabola.jpg"
     },
     {
       "id": 2,
       "name": "Canelones Ragu",
       "description": "Láminas de pasta artesanal rellenas con carne de res en cocción lenta y pomodoro, gratinadas con mozzarella.",
-      "price": "18000",
+      "price": "12000",
       "img": "assets/img/portfolio/canelones.png"
     },
     {
@@ -200,11 +175,18 @@
       "img": "assets/img/portfolio/combinadososo.png"
     },
     {
+      "name": "Hamburguesa",
+      "description": "Tres carnes super grande",
+      "price": "14000",
+      "img": "https://d1uz88p17r663j.cloudfront.net/original/8689e8d974203563ddcc9bbff91323c2_MG_CHORIZOBURGER_Main-880x660.png",
+      "id": 14
+    },
+    {
       "name": "alitas bbq",
-      "description": "deliciosas y crujientes",
+      "description": "Deliciosas y Crujientes",
       "price": "12000",
       "img": "https://es.cravingsjournal.com/wp-content/uploads/2019/11/alitas-bbq-6-320x321.jpg",
-      "id": 13
+      "id": 15
     }
   ]
 }
