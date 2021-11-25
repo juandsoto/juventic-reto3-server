@@ -1,10 +1,16 @@
-const jsonServer = require('json-server');
-const server = jsonServer.create();
-const router = jsonServer.router('db.json'); // <== Will be created later
-const middlewares = jsonServer.defaults();
+const express = require('express');
+const cors = require('cors');
+const { config } = require('dotenv');
+const app = express();
+
+config();
+
 const port = process.env.PORT || 4000; // <== You can change the port
 
-server.use(middlewares);
-server.use(router);
+app.use(cors());
+app.use(express.json());
+app.use('/api', require('./routes'));
 
-server.listen(port);
+app.listen(port, () => {
+  console.log(`Server listening on port ${port}`);
+});
